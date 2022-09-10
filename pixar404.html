@@ -8,6 +8,10 @@
       href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"
       rel="stylesheet"
     />
+    <script
+    src="https://kit.fontawesome.com/fa98044e1d.js"
+    crossorigin="anonymous"
+  ></script>
     <title>Document</title>
   </head>
   <style>
@@ -44,15 +48,22 @@
 
         margin-top: 20px;
         margin-left: 450px;
+        margin-bottom: 100px;
         
     }
     .navbar a {
         font-family: 'brandon_grotesqueblack';
         color: rgba(17, 17, 17, 0.775);
         font-weight: 40;
-  /* font-style: italic; */
-  font-size: 15px;
-  letter-spacing: 2px;
+        font-size: 15px;
+        letter-spacing: 2px;
+    }
+
+    .pixar img {
+    width: 129px;
+    margin-left: 150px;
+    margin-bottom: -60px;
+    
     }
 
     h1 {
@@ -79,6 +90,10 @@
     .box {
     float: left;
     text-align: center;
+    
+    
+
+
     }
     .box img {
     height: 449px;
@@ -97,8 +112,6 @@ width: 35%;
 
 ul {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
   overflow: hidden;
   background-color: #ffffff;
 }
@@ -120,23 +133,57 @@ li a {
 li a:hover:not(.active) {
   
   color:rgba(29, 29, 29, 0.4);
+  
 }
 
 
+.icons {
+    
+    margin-left: 750px;
+    margin-top: -170px;
+}
+
+.iconLeft {
+   margin-left: 30px; 
+}
+
+.icons a {
+
+    color: rgba(9, 7, 7, 0.904);
+    
+}
+
+.icons a:hover:not(.active) {
+  
+  color:rgba(29, 29, 29, 0.4);
+  
+}
 .footer a {
     font-family: 'brandon_grotesqueblack';
-    color: rgba(29, 29, 29, 0.6);
-    font-size: 14px;
-    font-weight: 400;
-    margin: 150px;
+    color: rgb(41, 41, 41);
+    font-size: 15px;
+    letter-spacing: 3px;
     
-    
+   
 }
+
+.footer {
+    
+    margin-top: 750px;
+    margin-left: 620px;
+}
+
+.left {
+    margin-left: -100px;
+}
+
 
 
 
   </style>
   <body>
+    <span class="pixar"><a  href="http://pixar.com"><img src="//images.squarespace-cdn.com/content/v1/51cdafc4e4b09eb676a64e68/0755a48b-bbaf-4dff-8e78-9b489106eec6/logo022.jpg?format=1500w"></a></span>
+
     <div class="navbar">
         <ul>
             <li><a class="active" href="#home">FEATURE FILMS</a></li>
@@ -145,6 +192,7 @@ li a:hover:not(.active) {
             <li><a href="#about">CAREERS</a></li>
             <li><a href="#about">EXTRAS</a></li>
             <li><a href="#about">ABOUT</a></li>
+
           </ul>
         </div>
     <div class="box figure">
@@ -163,14 +211,23 @@ li a:hover:not(.active) {
         <a href="https://privacy.thewaltdisneycompany.com/en/" target="_blank">PRIVACY POLICY </a>|
          <a href="https://disneytermsofuse.com" target="_blank">TERMS OF USE</a>
          <br>
-         <a href="https://privacy.thewaltdisneycompany.com/en/current-privacy-policy/your-california-privacy-rights/" target="_blank">Your California Privacy Rights</a>| 
+         <a class="left" href="https://privacy.thewaltdisneycompany.com/en/current-privacy-policy/your-california-privacy-rights/" target="_blank">Your California Privacy Rights</a>| 
          <a href="https://privacy.thewaltdisneycompany.com/en/for-parents/childrens-online-privacy-policy/" target="_blank">Children’s Online Privacy Policy</a>
           <br>
-          <a href="http://preferences-mgr.truste.com/?affiliateId=115&amp;type=disneycolor" target="_blank">Interest-Based Ads</a>|
+          <a class="left" href="http://preferences-mgr.truste.com/?affiliateId=115&amp;type=disneycolor" target="_blank">Interest-Based Ads</a>|
           <a href="https://privacyportal-de.onetrust.com/webform/64f077b5-2f93-429f-a005-c0206ec0738e/0a4f1f0b-7130-421f-971d-ef578c0bce6d" target="_blank">Do Not Sell My PERSONAL INFORMATION</a>
         </h3>
 
 
+</div>
+
+<div class="icons">
+    <a href="https://github.com/" class="fa-xl fa-brands fa-facebook"></a>
+    <a href="https://github.com/" class="fa-xl fa-brands fab fa-twitter"></a>
+    <a href="https://github.com/" class="fa-xl fa-brands fab fa-youtube"></a>
+    <br><br>
+    <a href="https://github.com/" class="fa-xl fab fa-instagram iconLeft"></a>
+      
 </div>
 
   </body>
